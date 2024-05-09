@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(162, 207, 207);
+}
+
+h1{
+    color: black;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+p{
+    color: black;
+}
+
+.producto {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.producto img {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.producto button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #0056b3;
+}
